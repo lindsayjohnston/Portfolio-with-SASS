@@ -1,0 +1,45 @@
+$primary-color: #8bcdcd;
+$secondary-color: #fcf876;
+$dark-color: #3797a4;
+$light-color: #fff;
+
+.Body{
+    height:100%;
+    width: 100%;
+    position: relative;
+    background-color: $light-color;
+
+    .LindsayImage{ 
+        width: 100vw;
+        background-repeat: no-repeat;
+        z-index: 20;
+        position: absolute;
+        top: 0px;
+    }
+
+    .OuterCircle{
+        height: 100vw;
+        width: 100vw;
+        background-color: $secondary-color;
+        position: absolute;
+        top: -50vw;
+        left: -50vw;
+        border-radius: 50%;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // padding: 5vw;
+    }
+
+    .InnerCircle{
+        
+        height: 70vw;
+        width: 70vw;
+        border: 5vw solid $light-color;
+        border-radius: 50%;
+        z-index: 15;
+    }
+
+}
+
