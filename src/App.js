@@ -9,7 +9,7 @@ import BackgroundDesign from './BackgroundDesign/BackgroundDesign';
 function App() {
   return (
     <div className={styles.App}>
-      <BackgroundDesign/>
+      
     <Navbar />
   
     <MainLayout/>

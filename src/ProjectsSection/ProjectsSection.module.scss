@@ -1,0 +1,32 @@
+$primary-color: #8bcdcd;
+$secondary-color: #fcf876;
+$dark-color: #3797a4;
+$light-color: #fff;
+
+.ProjectsSection{
+    background-color: $primary-color;
+    height: 550px;
+    margin: 0 15px;
+    padding: 5px;
+    position: relative;
+    z-index: 12;
+
+    h1{
+        color: $light-color;
+        margin: 0;
+        position: relative;
+        top:0px;
+        z-index: 15;
+    }
+    
+   
+    .Cards{
+        display: flex;
+        top: 0px;
+        flex-direction: row;
+        position: relative;
+        z-index: 15;
+    }
+
+    
+}
