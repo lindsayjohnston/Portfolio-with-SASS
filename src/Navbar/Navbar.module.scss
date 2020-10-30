@@ -11,4 +11,32 @@ $light-color: #fff;
     color: $light-color;
     position: fixed;
     top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    ul{
+        display: flex;
+        flex-direction: row;
+       
+        li{
+            list-style: none;
+           
+            a{
+                text-decoration: none;
+                color:$light-color;
+                padding: 10px 15px;
+               
+                cursor: pointer;
+            }
+            a:hover{
+                border-bottom: $light-color 2px solid;
+            }
+
+           
+        }
+        
+    }
+
+    
 }
