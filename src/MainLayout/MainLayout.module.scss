@@ -1,0 +1,17 @@
+$primary-color: #8bcdcd;
+$secondary-color: #fcf876;
+$dark-color: #3797a4;
+$light-color: #fff;
+
+.MainLayout{
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    // background-color: pink;
+    // opacity: 50%;
+    z-index: 30;
+    // position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}

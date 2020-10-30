@@ -1,15 +1,20 @@
 import logo from './logo.svg';
-import Background from './BackgroundDesign/BackgroundDesign';
+
 import Navbar from './Navbar/Navbar';
 import styles from './App.module.scss';
+
+import MainLayout from './MainLayout/MainLayout';
+import BackgroundDesign from './BackgroundDesign/BackgroundDesign';
 
 function App() {
   return (
     <div className={styles.App}>
-     <Navbar />
-    <Background>
-     
-     </Background>
+      <BackgroundDesign/>
+    <Navbar />
+  
+    <MainLayout/>
+  
+    
     </div>
   );
 }
