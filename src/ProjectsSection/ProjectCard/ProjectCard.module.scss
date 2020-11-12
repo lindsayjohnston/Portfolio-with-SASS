@@ -3,10 +3,31 @@ $secondary-color: #fcf876;
 $dark-color: #3797a4;
 $light-color: #fff;
 
-.ProjectCard{
-    width: 200px;
-    height: 300px;
-    border: 1px black solid;
-    background-color: $light-color;
-
+.ProjectCardContainer{
+    width: 300px;
+    min-width: 300px;
+    height: 100%;
+    border: 15px $secondary-color solid;
+    margin-right: 15px;
+    padding: 10px;
 }
+
+.LastCardContainer{
+    margin-right: 0px;
+}
+
+.InnerCard{
+   border: 1px pink solid;
+   height: 100%;
+}
+
+.CardTop{
+    height: 33%;
+    background-color: grey;
+}
+
+.CardBottom{
+    height: 66%;
+    background-color: white;
+}
+

@@ -5,13 +5,18 @@ import ProjectCard from './ProjectCard/ProjectCard';
 const projectsSection = (props) => (
 
     <div className={styles.ProjectsSection}>
-        <h1>Projects</h1>
-        <div className={styles.Cards}>
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+        <div className={styles.Circle}></div>
+        <div className={styles.Content}>
+            <h1>Projects</h1>
+            {/* <div className={styles.Cards}>
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard lastCard="true"/>
+
+            </div> */}
 
         </div>
+
 
     </div>
 );

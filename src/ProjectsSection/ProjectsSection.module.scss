@@ -7,26 +7,48 @@ $light-color: #fff;
     background-color: $primary-color;
     height: 550px;
     margin: 0 15px;
-    padding: 5px;
+    padding: 10px;
+    z-index: 9;
+    // display: flex;
+    // justify-content: center;
     position: relative;
-    z-index: 12;
+  
 
-    h1{
-        color: $light-color;
-        margin: 0;
-        position: relative;
-        top:0px;
-        z-index: 15;
+    .Circle{
+        border: 40px solid $light-color;
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        right: -275px;
+        top: 25px;
+        z-index: 10;
+        border-radius: 50%;
     }
+
+    .Content{
     
-   
-    .Cards{
-        display: flex;
-        top: 0px;
-        flex-direction: row;
-        position: relative;
-        z-index: 15;
+        height: 100%;
+        width: 100%;
+        max-width: 1000px;
+        position: absolute;
+        z-index: 11;
+
+        h1{
+            color: $light-color;
+            margin: 0;
+        }
+        
+        .Cards{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 100%;
+
+        }
+    
+
     }
 
+   
     
 }

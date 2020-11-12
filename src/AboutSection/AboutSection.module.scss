@@ -1,0 +1,26 @@
+$primary-color: #8bcdcd;
+$secondary-color: #fcf876;
+$dark-color: #3797a4;
+$light-color: #fff;
+
+.AboutSection{
+    background-color: $secondary-color;
+    height: 550px;
+    margin: 0 15px;
+    display: flex;
+    padding: 15px;
+
+    .Circle{
+        height: 25vw;
+        width: 25vw;
+        background-color: $light-color;
+        border-radius: 50%;
+    }
+
+    .DescriptionDiv{
+        display: flex;
+        flex-direction: column;
+        width: 75vw;
+    }
+ 
+}
