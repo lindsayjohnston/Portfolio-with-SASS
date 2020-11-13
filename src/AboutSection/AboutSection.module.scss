@@ -9,18 +9,50 @@ $light-color: #fff;
     margin: 0 15px;
     display: flex;
     padding: 15px;
+    position: relative;
+    overflow: hidden;
 
     .Circle{
-        height: 25vw;
-        width: 25vw;
-        background-color: $light-color;
+        border: 40px solid $light-color;
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        left: -275px;
+        top: 25px;
+        z-index: 10;
         border-radius: 50%;
     }
 
-    .DescriptionDiv{
-        display: flex;
-        flex-direction: column;
-        width: 75vw;
+    .Content{
+        height: 100%;
+        width: 100%;
+        // max-width: 1000px;
+        padding: 10px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 11;
+        // background-color: lightpink;
+       
+
+        h1{
+            color: $primary-color;
+            margin: 10px 0;
+            text-align: right;
+        }
+
+        .AboutMeText{
+            background-color: $light-color;
+            height: 86%;
+            width: 67%;
+            margin-left: 33%;
+            padding: 15px;
+        }
+        
+        p{
+            margin: 0;
+            color: $primary-color;
+        }
     }
  
 }

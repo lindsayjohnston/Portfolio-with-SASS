@@ -3,7 +3,7 @@ import styles from "./ProjectCard.module.scss";
 
 const projectCard = (props) => {
     let cardContainerStyles = `${styles.ProjectCardContainer}`;
-    if (props.lastCardContainer) {
+    if (props.lastCard) {
         cardContainerStyles = `${styles.ProjectCardContainer} ${styles.LastCardContainer}`
     }
     return (

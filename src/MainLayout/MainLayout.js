@@ -10,7 +10,7 @@ const mainLayout = (props)=>(
        <BackgroundDesign/>
        <WelcomeSection/>
        <ProjectsSection/>
-       {/* <AboutSection/> */}
+       <AboutSection/>
     </main>
 );
 

@@ -23,6 +23,8 @@ $light-color: #fff;
     .OuterCircle{
         height: 100vw;
         width: 100vw;
+        max-width: 1300px;
+        max-height: 1300px;
         background-color: $secondary-color;
         position: absolute;
         top: -50vw;
@@ -33,12 +35,15 @@ $light-color: #fff;
         justify-content: center;
         align-items: center;
         // padding: 5vw;
+        //ADD CHANGE TO top/left postition WHEN SCREEN IS OVER 1400px
     }
 
     .InnerCircle{
         
         height: 70vw;
         width: 70vw;
+        max-width: 913px;
+        max-height: 913px;
         border: 5vw solid $light-color;
         border-radius: 50%;
         z-index: 15;
