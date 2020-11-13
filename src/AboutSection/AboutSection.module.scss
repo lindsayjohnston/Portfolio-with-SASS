@@ -3,7 +3,7 @@ $secondary-color: #fcf876;
 $dark-color: #3797a4;
 $light-color: #fff;
 
-.AboutSection{
+.AboutSection {
     background-color: $secondary-color;
     height: 550px;
     margin: 0 15px;
@@ -12,18 +12,19 @@ $light-color: #fff;
     position: relative;
     overflow: hidden;
 
-    .Circle{
+    .Circle {
         border: 40px solid $light-color;
-        height: 500px;
-        width: 500px;
+        height: 455px;
+        width: 455px;
         position: absolute;
-        left: -275px;
-        top: 25px;
+        left: -100px;
+        top: 73px;
         z-index: 10;
         border-radius: 50%;
+        background: url("../assets/bartlett_photo.jpg") no-repeat center/cover;
     }
 
-    .Content{
+    .Content {
         height: 100%;
         width: 100%;
         // max-width: 1000px;
@@ -33,26 +34,41 @@ $light-color: #fff;
         left: 0px;
         z-index: 11;
         // background-color: lightpink;
-       
 
-        h1{
+        h1 {
             color: $primary-color;
             margin: 10px 0;
             text-align: right;
         }
 
-        .AboutMeText{
-            background-color: $light-color;
-            height: 86%;
-            width: 67%;
-            margin-left: 33%;
-            padding: 15px;
-        }
-        
-        p{
-            margin: 0;
-            color: $primary-color;
+        .Container {
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 10px;
+
+            .Placeholder{
+                width: 380px;
+                // background-color: blue;
+                // opacity: 50%;
+            }
+            
+            .AboutMeText {
+                float: right;
+                background-color: $light-color;
+                flex:1;
+                height: 450px;
+                padding: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            p {
+                margin: 0;
+                color: $primary-color;
+                font-size: 1.7vw;
+                text-align: center;
+            }
         }
     }
- 
 }
