@@ -1,0 +1,49 @@
+$primary-color: #8bcdcd;
+$secondary-color: #fcf876;
+$dark-color: #3797a4;
+$light-color: #fff;
+
+.ContactSection{
+    background-color: $primary-color;
+    height: 550px;
+    margin: 0 15px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+
+   
+
+    .Content{
+        height: 100%;
+        width: 100%;
+        // max-width: 1000px;
+        padding: 10px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 11;
+        // background-color: lightpink;
+       
+
+        h1{
+            color: $light-color;
+            margin: 10px 0;
+        }
+        
+        .Cards{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 87%;
+            width: 100%;
+            max-width: 1000px;
+            // background-color: lightseagreen;
+            margin: auto;
+        }
+    
+
+    }
+
+   
+    
+}

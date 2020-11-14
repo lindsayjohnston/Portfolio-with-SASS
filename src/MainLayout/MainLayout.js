@@ -4,6 +4,7 @@ import WelcomeSection from '../WelcomeSection/WelcomeSection';
 import ProjectsSection from '../ProjectsSection/ProjectsSection';
 import BackgroundDesign from '../BackgroundDesign/BackgroundDesign';
 import AboutSection from '../AboutSection/AboutSection';
+import ContactSection from '../ContactSection/ContactSection';
 
 const mainLayout = (props)=>(
     <main className={styles.MainLayout}>
@@ -11,6 +12,7 @@ const mainLayout = (props)=>(
        <WelcomeSection/>
        <ProjectsSection/>
        <AboutSection/>
+       <ContactSection/>
     </main>
 );
 
