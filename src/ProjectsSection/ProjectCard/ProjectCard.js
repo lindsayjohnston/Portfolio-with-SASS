@@ -8,16 +8,15 @@ const projectCard = (props) => {
     }
     return (
         <div className={cardContainerStyles}>
-            <div className={styles.InnerCard}>
-                <div className={styles.CardTop}>
-                    THIS IS A CARD TOP
-                </div>
-                <div className={styles.CardBottom}>
-                    THIS IS A CARD BOTTOM
-                 </div>
+            <a href={props.link}>
+                <img src={props.image} className={styles.CardTop}></img>
+            </a>
+            
 
+            <div className={styles.CardBottom}>
+                <h2>{props.label}</h2>
+                <p>{props.caption}</p>
             </div>
-
         </div>
     )
 };

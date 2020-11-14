@@ -4,22 +4,22 @@ $dark-color: #3797a4;
 $light-color: #fff;
 
 .ContactCardContainer {
-    border: pink 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     .IconContainer {
-        height: 20vw;
-        width: 20vw;
+        height: 10vw;
+        width: 10vw;
         border-radius: 50%;
-        border: 20px $light-color solid;
+        border: 10px $light-color solid;
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
 
         img{
-            width: 10vw;  
+            width: 5vw;  
         }
     }
 

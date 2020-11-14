@@ -21,7 +21,7 @@ $light-color: #fff;
         top: 73px;
         z-index: 10;
         border-radius: 50%;
-        background: url("../assets/bartlett_photo.jpg") no-repeat center/cover;
+        background: url("../assets/guitar_photo.jpg") no-repeat center/cover;
     }
 
     .Content {
@@ -53,6 +53,7 @@ $light-color: #fff;
             }
             
             .AboutMeText {
+                border-radius: 18px;
                 float: right;
                 background-color: $light-color;
                 flex:1;

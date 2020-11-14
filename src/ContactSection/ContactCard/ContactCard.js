@@ -5,9 +5,9 @@ import linkedInIcon from "/Users/lindsayjohnston/Desktop/Programming/portfolio-w
 const contactCard = (props) => (
         <div className={styles.ContactCardContainer}>
             <div className={styles.IconContainer}>
-                <img src={linkedInIcon}></img>
+                <img src={props.icon}></img>
             </div>
-            <div className={styles.Label}>Label</div>
+            <div className={styles.Label}>{props.label}</div>
         </div>
     )
 ;

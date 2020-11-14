@@ -33,11 +33,8 @@ $light-color: #fff;
         .Cards{
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
-            height: 87%;
-            width: 100%;
-            max-width: 1000px;
-            // background-color: lightseagreen;
+            justify-content: space-around;
+            max-width: 800px;
             margin: auto;
         }
     

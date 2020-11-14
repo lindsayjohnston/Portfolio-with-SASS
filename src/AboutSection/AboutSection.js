@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './AboutSection.module.scss';
-import lindsayPhoto from '../assets/bartlett_photo.jpg';
+
 
 const aboutSection = (props) => (
     <div className={styles.AboutSection}>
