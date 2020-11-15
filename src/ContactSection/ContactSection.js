@@ -13,7 +13,7 @@ const contactSection = (props) => (
     <div className={styles.ContactSection}>
        
         <div className={styles.Content}>
-            <h1>Contact</h1>
+            <h1>Let's Connect</h1>
             <div className={styles.Cards}>
                 {socialsArray.map(item =>(
                     <ContactCard icon={item[1]} label= {item[0]}/>

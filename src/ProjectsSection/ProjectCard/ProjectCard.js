@@ -8,7 +8,7 @@ const projectCard = (props) => {
     }
     return (
         <div className={cardContainerStyles}>
-            <a href={props.link}>
+            <a href={props.link} target="_blank">
                 <img src={props.image} className={styles.CardTop}></img>
             </a>
             
