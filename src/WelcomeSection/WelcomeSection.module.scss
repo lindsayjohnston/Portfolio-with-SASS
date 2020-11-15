@@ -9,7 +9,7 @@ $light-color: #fff;
     // opacity: 50%;
     height: 550px;
     // width: 100%;
-    // position: relative;
+    position: relative;
     // z-index: 5;
     
     margin: 0 15px;
@@ -35,5 +35,11 @@ $light-color: #fff;
         .SpanPrimary{
             color: $primary-color;
         }
+    }
+
+    .ProjectsStop{
+        height: 100px;
+        position: absolute;
+        bottom: 0px;
     }
 }

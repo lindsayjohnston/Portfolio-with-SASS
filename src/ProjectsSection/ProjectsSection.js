@@ -42,7 +42,7 @@ const projectsSection = (props) => (
 
         </div>
 
-
+        <div id="AboutMe" className={styles.AboutStop}></div>
     </div>
 );
 

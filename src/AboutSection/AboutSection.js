@@ -19,8 +19,7 @@ const aboutSection = (props) => (
 
 
         </div>
-
-
+        <div id="Contact" className={styles.ContactStop}></div>
     </div>
 );
 
