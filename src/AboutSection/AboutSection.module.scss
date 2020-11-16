@@ -48,40 +48,64 @@ $light-color: #fff;
         }
 
        
-            
-            
-            .AboutMeText {
-                border-radius: 18px;
-                // margin: auto;
-                background-color: $light-color;
-             
-                height: 450px;
-                width: 50vw;
-                
-                padding: 30px;
+            .Container{
+                width: 100%;
                 display: flex;
-                justify-content: center;
-                align-items: center;
+                flex-direction: row;
+                .PlaceholderLeft{
+                    width: 25vw;
+                    // background-color: blue;
+                }
 
-                p {
-                    margin: 0;
-                    color: $primary-color;
-                    font-size: 1.4vw;
-                    text-align: center;
+                .AboutMeText {
+                    border-radius: 18px;
+                    // margin: auto;
+                    background-color: $light-color;
+                 
+                    height: 450px;
+                    width: 50vw;
+                    
+                    padding: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
     
-                    .SpanDarkColor{
-                        color: $dark-color;
+                    p {
+                        margin: 0;
+                        color: $primary-color;
+                        font-size: 1.4vw;
+                        text-align: center;
+        
+                        .SpanDarkColor{
+                            color: $dark-color;
+                        }
                     }
                 }
+
+                .PlaceholderRight{
+                    width: 25vw;
+                    padding: 20px 0px;
+                    padding-left: 80px;
+                    // background-color: blue;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    div{
+                        background-color: white;
+                        height: 100px;
+                        width: 100px;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: $dark-color;
+                        cursor: pointer;
+                    }
+                }
+
             }
-
-            .Placeholder2{
-                // background-color: blue;
-                width: 200px;
-                height: 100px
-            }
-
-
+ 
         
     }
     .ContactStop{
