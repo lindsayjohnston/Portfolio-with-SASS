@@ -11,7 +11,7 @@ $light-color: #fff;
     // z-index: 9;
     position: relative;
     overflow: hidden;
-
+    
     .Circle{
         border: 40px solid $light-color;
         height: 500px;
@@ -33,11 +33,15 @@ $light-color: #fff;
         left: 0px;
         z-index: 11;
         // background-color: lightpink;
-       
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         h1{
             color: $light-color;
             margin: 10px 0;
+            position: absolute;
+            left: 20px;
         }
         
         .Cards{
@@ -49,6 +53,8 @@ $light-color: #fff;
             max-width: 1000px;
             // background-color: lightseagreen;
             margin: auto;
+            // padding-right: 134px;
+
         }
     
 

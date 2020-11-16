@@ -12,8 +12,7 @@ $light-color: #fff;
     // top:-100px;
 
     .LindsayImage{ 
-        min-height: 1500px;
-        max-width: 100vw;
+        height: 2400px;
         background-repeat: no-repeat;
         z-index: 10;
         position: absolute;
@@ -21,14 +20,14 @@ $light-color: #fff;
     }
 
     .OuterCircle{
-        height: 100vw;
-        width: 100vw;
-        max-width: 1300px;
-        max-height: 1300px;
+        // height: 100vw;
+        // width: 100vw;
+        width: 1300px;
+        height: 1300px;
         background-color: $secondary-color;
         position: absolute;
-        top: -50vw;
-        left: -50vw;
+        top: -655px;
+        left: -655px;
         border-radius: 50%;
         z-index: 1;
         display: flex;
@@ -40,10 +39,8 @@ $light-color: #fff;
 
     .InnerCircle{
         
-        height: 70vw;
-        width: 70vw;
-        max-width: 913px;
-        max-height: 913px;
+        height: 913px;
+        width: 913px;
         border: 5vw solid $light-color;
         border-radius: 50%;
         z-index: 15;

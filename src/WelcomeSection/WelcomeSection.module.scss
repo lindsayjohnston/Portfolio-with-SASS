@@ -14,8 +14,9 @@ $light-color: #fff;
     
     margin: 0 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 15px;
+    z-index: 20;
     .Intro{
         width: 50%;
         color: $dark-color;
@@ -28,6 +29,8 @@ $light-color: #fff;
         
         h1{
             font-size: 4vw;
+            left: 200px;
+           
         }
         h2{
             font-size: 2vw;
