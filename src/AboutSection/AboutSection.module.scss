@@ -115,3 +115,12 @@ $light-color: #fff;
     }
 
 }
+
+
+@media (max-width: 1550px){
+    .Content {
+        h1{
+            transform: rotate(-90deg);
+        }
+    }
+}

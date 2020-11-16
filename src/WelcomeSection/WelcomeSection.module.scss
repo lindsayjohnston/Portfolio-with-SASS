@@ -46,3 +46,9 @@ $light-color: #fff;
         bottom: 0px;
     }
 }
+
+@media (max-width: 1550px){
+    .WelcomeSection{
+        height: 600px;
+    }
+}
