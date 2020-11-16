@@ -20,10 +20,10 @@ const contactSection = (props) => (
                 ))}
 
             </div>
-
+            
         </div>
 
-
+        <footer>Copyright 2020-Lindsay Johnston </footer>
     </div>
 );
 

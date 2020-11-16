@@ -5,7 +5,7 @@ $light-color: #fff;
 
 .ContactSection{
     background-color: $primary-color;
-    height: 550px;
+    height: 500px;
     margin: 0 15px;
     padding: 10px;
     position: relative;
@@ -23,24 +23,34 @@ $light-color: #fff;
         left: 0px;
         z-index: 11;
         // background-color: lightpink;
-       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
         h1{
             color: $light-color;
             margin: 10px 0;
+            width:100%;
+            text-align: center;
         }
         
         .Cards{
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
-            max-width: 800px;
+            justify-content: space-between;
+            width: 50vw;
             margin: auto;
         }
     
 
     }
 
-   
+   footer{
+       position: absolute;
+       bottom: 0px;
+       width: 100%;
+       text-align: center;
+       color: $light-color;
+   }
     
 }
